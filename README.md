@@ -1,1 +1,1 @@
-## Here I slove all javascript Assignment questions.
+## Here I completed all javascript Assignment questions.
