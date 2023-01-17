@@ -3,7 +3,7 @@
 //  years he needs to turn 18.
 
 
-var age = 17;
+var age = prompt('Enter your age:');
  if(age >= 18 ){
      console.log('You are old enough to drive');
  }else{

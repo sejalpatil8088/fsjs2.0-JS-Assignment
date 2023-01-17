@@ -11,8 +11,7 @@
        return element.toUpperCase();
    });
    console.log(upper);
-
-// // toLowercase() method
+ // toLowercase() method
  let arr1 = ['SEJAL'];
  let lower = arr1.map(element =>{
      return element.toLowerCase();

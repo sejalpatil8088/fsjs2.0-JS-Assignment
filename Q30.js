@@ -19,3 +19,4 @@
       }
       
       let result = Calculator(10, "*", 10);
+      console.log(result);

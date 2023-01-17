@@ -2,8 +2,6 @@
 // using JavaScript? Create a program which checks that the given number is even or odd.
 
 
-
-
 const num = 20;
 if(num % 4 == 0 ){
     console.log('given number is even');

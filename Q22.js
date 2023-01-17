@@ -7,7 +7,7 @@
 //     - Compare the value of (min - average) and (max - average), use abs() method
 
 
-
+// min and max age
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 console.log(Math.min(19,22,19,24,20,25,26,24,25,24));
 console.log(Math.max(19,22,19,24,20,25,26,24,25,24));

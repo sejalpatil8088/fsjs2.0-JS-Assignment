@@ -50,6 +50,6 @@ console.log(c);
 
 let str1 = 'python';
 let str2 = 'jargon';
-console.log(str1.length == str2.length);
+console.log(str1.length != str2.length);
 
 // output : false

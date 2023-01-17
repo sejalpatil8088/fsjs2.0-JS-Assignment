@@ -5,5 +5,3 @@
  let str = "                     Hello Everyone          ";
  console.log(str.trim(str));
 
- let str1 = "        hello everyone               ";
- console.log(str1);

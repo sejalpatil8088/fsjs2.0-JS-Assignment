@@ -6,21 +6,6 @@
 
 
 
-
-
-
-// let season = 'Spring';
-// if(season == 'Autumn'){
-//     console.log('January','February','March');
-// }else if(season == 'Winter'){
-//     console.log('December','January','February');
-// }else if(season == 'Spring'){
-//     console.log('March','April','May');
-// }else if(season == 'Summer'){
-//     console.log('June','July','August');
-// }
-
-
 function checkseason(month) {
     if (month == "September" || month == "October" || month == "November") {
       return "The season is [Autumn]";
