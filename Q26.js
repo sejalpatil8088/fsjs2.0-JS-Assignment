@@ -4,10 +4,10 @@
 // 	2 * 2 = 4
 // 	2 * 3 = 6 and so on till 2 * 10 = 20.
 
-   function table(number){
-      for(var i=1; i<=10; i++){
-        var res = i * number;
-        console.log(`${number} * ${1} = ${res}`);
-      }
-   }
-table(2);
+    function table(number){
+       for(var i=1; i<=10; i++){
+         var res = i * number;
+         console.log(`${number} * ${i} = ${res}`);
+       }
+    }
+ table(2);
