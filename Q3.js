@@ -19,6 +19,8 @@
   });
   console.log(lower);
 
-
-
- 
+  let name = ["sejal"];
+  let name1 = name.map(element => {
+    return element.toUpperCase();
+  });
+  console.log(name1);

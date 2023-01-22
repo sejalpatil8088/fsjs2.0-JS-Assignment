@@ -24,16 +24,26 @@
 
 
 //  2
+// let num = 3;
+// let str = "";
+
+// for (let i = 1; i <= num; i++) {
+//   for (let j = 1; j <= num; j++) {
+//     str += "*";
+//   }
+//   str += "\n";
+// }
+
+// console.log(str);
+
 let num = 3;
 let str = "";
-
-for (let i = 1; i <= num; i++) {
-  for (let j = 1; j <= num; j++) {
-    str += "*";
-  }
+for(let i=1; i<=num; i++){
+   for(let j=1; j<=num; j++){
+     str += "*";
+   }
   str += "\n";
 }
-
 console.log(str);
 
 

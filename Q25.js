@@ -8,18 +8,19 @@
 
 
 
-function BmiCalculator(height, weight) {
-    BMI = weight / height ** 2;
+function BmiCalculator(weight, height) {
+     var BMI = weight / height ** 2;
     if (BMI < 18.5) {
-      return "Underweight";
-    } else if (BMI >= 18.5 || BMI <= 24.9) {
-      return "Normal Weight";
-    } else if (BMI >= 25 || BMI <= 29.9) {
-      return "Overweight";
+      return ("Underweight");
+    } else if (BMI >= 18.5 && BMI <= 24.9) {
+      return ("Normal Wreight");
+    } else if (BMI >= 25 && BMI <= 29.9) {
+      return ("Overweight");
     } else if (BMI > 30) {
-      return "Obese";
+      return ("Obese");
     }
   }
   
-  let output = BmiCalculator(25,28);
-  console.log(output);
+   let output = BmiCalculator( 25,27);
+   console.log(output);
+   

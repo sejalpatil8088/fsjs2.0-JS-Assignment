@@ -8,19 +8,35 @@
 
 
 
-function studentgrade(score) {
-    if (score >= 80 && score <= 100) {
-      return "GRADE [ A ]";
-    } else if (score >= 70 && score <= 89) {
-      return "GRADE [ B ]";
-    } else if (score >= 60 && score <= 69) {
-      return "GRADE [ C ]";
-    } else if (score >= 50 && score <= 59) {
-      return "GRADE [ D ]";
-    } else if (score > 0 && score < 50) {
-      return "GRADE [ F ]";
-    }
-  }
+// function studentgrade(score) {
+//     if (score >= 80 && score <= 100) {
+//       return "GRADE [ A ]";
+//     } else if (score >= 70 && score <= 89) {
+//       return "GRADE [ B ]";
+//     } else if (score >= 60 && score <= 69) {
+//       return "GRADE [ C ]";
+//     } else if (score >= 50 && score <= 59) {
+//       return "GRADE [ D ]";
+//     } else if (score > 0 && score < 50) {
+//       return "GRADE [ F ]";
+//     }
+//   }
   
-  let output = studentgrade(100);
-  console.log(output);
+//   let output = studentgrade(100);
+//   console.log(output);
+
+function studentgrade(score){
+  if(score >=80 && score <=100){
+    return 'Grade [A]';
+  }else if(score <=70 && score <=89){
+    return'Grade [B]';
+  }else if(score >=60 && score <=69){
+    return 'Grade [B]';
+  }else if(score >=50 && score <=59){
+    return 'Grade B';
+  }else if(score >=0 && score <=49){
+    return 'Grade B';
+  }
+}
+let output = studentgrade(89);
+console.log(output);

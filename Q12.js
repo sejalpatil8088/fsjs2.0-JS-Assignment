@@ -7,7 +7,7 @@
 
 
 let timeanddate = {
-    now: new Date(),
+    now : new Date(),
   
     // Date and time - [ YYYY-MM-DD HH:mm ]
     datentime1: function () {

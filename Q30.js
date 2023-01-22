@@ -4,15 +4,15 @@
     
     function Calculator(num1, operator, num2) {
         if (operator == "+") {
-          console.log("Addition of Num1 + Num2 = ", num1 + num2);
+          console.log("Addition of Num1 + Num2  ", num1 + num2);
         } else if (operator == "-") {
-          console.log("Substraction of Num1 - Num2 = ", num1 - num2);
+          console.log("Substraction of Num1 - Num2  ", num1 - num2);
         } else if (operator == "*") {
-          console.log("Multiplication of Num1 * Num2 = ", num1 * num2);
+          console.log("Multiplication of Num1 * Num2 ", num1 * num2);
         } else if (operator == "/") {
-          console.log("Division of Num1 / Num2 = ", num1 / num2);
+          console.log("Division of Num1 / Num2  ", num1 / num2);
         } else if (operator == "%") {
-          console.log("Mod of Num1 % Num2 = ", num1 % num2);
+          console.log("Mod of Num1 % Num2  ", num1 % num2);
         } else {
           console.log("Invalid Input");
         }
